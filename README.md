@@ -37,7 +37,7 @@ WipeOut Phantom Edition is an enhanced version of the original WipeOut. It uses 
 ## Setup
 To set up your enhanced version of Wipeout, follow the steps below:
 
-- Download the [latest release](https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/releases/latest/download/wipeout.zip) and unzip the `wipeout` folder to your desired location on your hard drive.
+- Download the [latest release](https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/releases/latest/download/wipeout-x86-release.zip) and unzip the `wipeout` folder to your desired location on your hard drive.
 
 - You'll need game data files from the original PlayStation USA-region version of Wipeout. You can either manually provide these files or supply bin/cue disk image files, which can be obtained by ripping a disk you own. The disk image method is preferred as it automatically extracts the music into wav files.
 
