@@ -63,7 +63,7 @@ The game data should be in "MODE2/2352" format in the first track of the cue she
 
 **Extraction on Startup**: Upon launching, the game will check for missing data files and attempt to extract them from a disk image.
 
-**Removal of Disk Image Files**: Once the game successfully loads into the main menu, the disk image files are no longer required and can be removed.
+**Removal of Disk Image Files**: Once the game successfully loads into the main menu once, the disk image files are no longer required and can be removed.
 
 **NOTE: Since reading the file system in the disk image is non-trivial, a hash-based search is performed on the data track of the disk image. This can be slow on systems with less than 8 CPU cores.**
 
