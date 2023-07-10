@@ -35,9 +35,11 @@ WipeOut Phantom Edition is an enhanced PC source port of the original WipeOut. I
 - **Automatic game data extraction**: The game can automatically extract game data files from provided bin/cue disk image files.
 
 ## Setup
+**TL;DR**: Download the [latest release](https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/releases/latest) and put your PlayStation USA-region .bin and .cue files in `wipeout/diskimages` and launch the game.
+
 To set up your enhanced version of Wipeout, follow the steps below:
 
-- Download the [latest release](https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/releases/latest/download/wipeout-x86-release.zip) and unzip the `wipeout` folder to your desired location on your hard drive.
+- Download the [latest release](https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/releases/latest) and unzip the `wipeout` folder to your desired location on your hard drive.
 
 - You'll need game data files from the original PlayStation USA-region version of Wipeout. You can either manually provide these files or supply bin/cue disk image files, which can be obtained by ripping a disk you own. The disk image method is preferred as it automatically extracts the music into wav files.
 
