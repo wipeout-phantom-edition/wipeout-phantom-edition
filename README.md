@@ -4,38 +4,39 @@
 WipeOut Phantom Edition is an enhanced PC source port of the original WipeOut. It uses game data from the PlayStation version and is much more comparable to the PlayStation version than the official PC port.
 
 ## Features
-### Graphics
-- **Uncapped frame rate**: Render frame rate is decoupled from game state simulation using interpolation.
-- **High resolution rendering**: Matches your desktop resolution by default.
-- **Distant geometry fade**: Objects fade into view smoothly, eliminating pop-ins.
-- **Ship lighting**: Ships inherit coloration from track lighting data, similar to WipeOut 2 and 3.
-- **Increased view distance**: See further into the distance.
-- **Configurable aspect ratio and widescreen support**: Adjust screen settings to suit your monitor.
-- **Optional lo-fi resolution mode**: Switch to 320x240 graphics mode.
-- **Maintained PSX-accurate rasterization and blending**: Retains authentic PlayStation look by only using blending features available on original hardware, while also providing high resolution smooth graphics.
+### 🖥️ Graphics
+- 🚀**Uncapped frame rate**: Render frame rate is decoupled from game state simulation using interpolation.
+- 📈**High resolution rendering**: Matches your desktop resolution by default.
+- 🛣️**Distant geometry fade**: Objects fade into view smoothly, eliminating pop-ins.
+- 🚨**Ship lighting**: Ships inherit coloration from track lighting data, similar to WipeOut 2 and 3.
+- 👓**Increased view distance**: See further into the distance.
+- 💻**Configurable aspect ratio and widescreen support**: Adjust screen settings to suit your monitor.
+- 📼**Optional lo-fi resolution mode**: Switch to 320x240 graphics mode.
+- 📺**Maintained PSX-accurate rasterization and blending**: Retains authentic PlayStation look by only using blending features available on original hardware, while also providing high resolution smooth graphics.
 
-### Gameplay
-- **Keyboard and gamepad input support**: Choose your preferred control input method.
-- **Wall collision response options**:
+### 🕹️ Gameplay
+- ⌨️**Keyboard and gamepad input support**: Choose your preferred control input method.
+- 💥**Wall collision response options**:
   - **Modern**: Comparable to BallisticNG.
   - **Classic**: Comparable to WipeOut 2.
-  - **Legacy**: Original unforgiving WipeOut collisions.
-- **Wall scrape particle effects and audio**: Visual and audio enhancement in Modern and Classic wall collision modes.
+  - **Legacy**: 🪦
+- 🎇**Wall scrape particle effects and audio**: Visual and audio enhancement in Modern and Classic wall collision modes.
 
-### Audio
-- **New music and sound effect system**: Similar to PlayStation version. 
-- **3D audio for sound effects**: Spatial audio sources and doppler effect.
+### 📢 Audio
+- 📻**New music and sound effect system**: Similar to PlayStation version. 
+- 🚒**3D audio for sound effects**: Spatial audio sources and doppler effect.
 
-### UI
-- **Additional options menus**: Configure most of the new features.
-- **Keyboard and gamepad control configuration**: Customize your controls to your preference.
+### 🎛️ UI
+- 🎚️**Additional options menus**: Configure most of the new features.
+- 🎮**Keyboard and gamepad control configuration**: Customize your controls to your preference.
 
-### Technical
-- **New config file system**: Game configuration data and progress is stored in editable text files.
-- **Automatic game data extraction**: The game can automatically extract game data files from provided bin/cue disk image files.
+### 🤓 Technical
+- 💾**New config file system**: Game configuration data and progress is stored in editable text files.
+- 💽**Automatic game data extraction**: The game can automatically extract game data files from provided bin/cue disk image files.
 
 ## Setup
-**TL;DR**: Download the [latest release](https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/releases/latest) and put your PlayStation USA-region .bin and .cue files in `wipeout/diskimages` and launch the game.
+**TL;DR**: Download the [latest release](https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/releases/latest), put your PlayStation USA-region .bin and .cue files in `wipeout/diskimages`, and launch the game.
+---
 
 To set up your enhanced version of Wipeout, follow the steps below:
 
