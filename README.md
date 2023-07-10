@@ -1,14 +1,14 @@
 # WipeOut Phantom Edition
 [<img src="images/screenshot01.png" width="480" height="270">](images/screenshot01.png)
 
-WipeOut Phantom Edition is an enhanced version of the original WipeOut. It uses game data from the PlayStation version and is much more comparable to the PlayStation version than the official PC port.
+WipeOut Phantom Edition is an enhanced PC source port of the original WipeOut. It uses game data from the PlayStation version and is much more comparable to the PlayStation version than the official PC port.
 
 ## Features
 ### Graphics
-- **Uncapped frame rate**: Enjoy smoother gameplay with no frame rate limit.
+- **Uncapped frame rate**: Render frame rate is decoupled from game state simulation using interpolation.
 - **High resolution rendering**: Matches your desktop resolution by default.
 - **Distant geometry fade**: Objects fade into view smoothly, eliminating pop-ins.
-- **Ship lighting**: Improved lighting for more realistic visuals.
+- **Ship lighting**: Ships inherit coloration from track lighting data, similar to WipeOut 2 and 3.
 - **Increased view distance**: See further into the distance.
 - **Configurable aspect ratio and widescreen support**: Adjust screen settings to suit your monitor.
 - **Optional lo-fi resolution mode**: Switch to 320x240 graphics mode.
@@ -20,7 +20,7 @@ WipeOut Phantom Edition is an enhanced version of the original WipeOut. It uses 
   - **Modern**: Comparable to BallisticNG.
   - **Classic**: Comparable to WipeOut 2.
   - **Legacy**: Original unforgiving WipeOut collisions.
-- **Wall scrape particle effects and audio**: Additional immersion in Modern and Classic modes.
+- **Wall scrape particle effects and audio**: Visual and audio enhancement in Modern and Classic wall collision modes.
 
 ### Audio
 - **New music and sound effect system**: Similar to PlayStation version. 
