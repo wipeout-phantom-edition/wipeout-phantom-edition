@@ -4,35 +4,31 @@
 WipeOut Phantom Edition is an enhanced PC source port of the original WipeOut. It uses game data from the PlayStation version and is much more comparable to the PlayStation version than the official PC port.
 
 ## Features
-### 🖥️ Graphics
-- 🚀**Uncapped frame rate**: Render frame rate is decoupled from game state simulation using interpolation.
-- 📈**High resolution rendering**: Matches your desktop resolution by default.
-- 🛣️**Distant geometry fade**: Objects fade into view smoothly, eliminating pop-ins.
-- 🚨**Ship lighting**: Ships inherit coloration from track lighting data, similar to WipeOut 2 and 3.
-- 👓**Increased view distance**: See further into the distance.
-- 💻**Configurable aspect ratio and widescreen support**: Adjust screen settings to suit your monitor.
-- 📼**Optional lo-fi resolution mode**: Switch to 320x240 graphics mode.
-- 📺**Maintained PSX-accurate rasterization and blending**: Retains authentic PlayStation look by only using blending features available on original hardware, while also providing high resolution smooth graphics.
-
-### 🕹️ Gameplay
-- ⌨️**Keyboard and gamepad input support**: Choose your preferred control input method.
-- 💥**Wall collision response options**:
-  - **Modern**: Comparable to BallisticNG.
-  - **Classic**: Comparable to WipeOut 2.
-  - **Legacy**: 🪦
-- 🎇**Wall scrape particle effects and audio**: Visual and audio enhancement in Modern and Classic wall collision modes.
-
-### 📢 Audio
-- 📻**New music and sound effect system**: Similar to PlayStation version. 
-- 🚒**3D audio for sound effects**: Spatial audio sources and doppler effect.
-
-### 🎛️ UI
-- 🎚️**Additional options menus**: Configure most of the new features.
-- 🎮**Keyboard and gamepad control configuration**: Customize your controls to your preference.
-
-### 🤓 Technical
-- 💾**New config file system**: Game configuration data and progress is stored in editable text files.
-- 💽**Automatic game data extraction**: The game can automatically extract game data files from provided bin/cue disk image files.
+### Graphics
+- Uncapped frame rate by decoupling rendering from from game state simulation.
+- High resolution rendering.
+- Widescreen support.
+- Optional 320x240 graphics mode.
+- Increased view distance.
+- Distant geometry fade.
+- Added particle effects for collisions and wall scraping.
+- Ships inherit lighting from track lighting data, similar to WipeOut XL/2097 and WipeOut 3.
+- Maintained authentic PlayStation look by only using blending features available on original hardware, while also providing high resolution smooth graphics.
+### Gameplay
+- Keyboard and gamepad input support.
+- Wall collision response options:
+  - Modern: Comparable to BallisticNG.
+  - Classic: Comparable to WipeOut XL/2097.
+  - Legacy: 🪦
+- Fixed out of bounds detection on some large ramps.
+- Improved Ship-vs-Ship collision response.
+### Audio
+- New music and sound effect system.
+- 3D audio for sound effects.
+### Technical
+- Additional options menus to configure many of the new features.
+- New config file system which stores game settings and progress in editable text files.
+- The game can automatically extract game data files and music from provided PlayStation bin/cue disk image files.
 
 ## Setup
 > #### **TL;DR**: Download the [latest release](https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/releases/latest), put your PlayStation USA-region `.bin` and `.cue` files in `wipeout/diskimages`, and launch the game.
